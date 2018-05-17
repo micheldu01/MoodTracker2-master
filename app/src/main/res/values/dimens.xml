@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //activity page result
+        //text
+    <dimen name="padding_left_text">5dp</dimen>
+        //image button
+    <dimen name="margin_right_button">20dp</dimen>
+    <dimen name="margin_top_button">10dp</dimen>
+
+    //toast
+    <dimen name="height_toast">90dp</dimen>
+    <dimen name="margin_left_toast">10dp</dimen>
+    <dimen name="margin_right_toast">10dp</dimen>
+    <dimen name="margin_bottom_toast">15dp</dimen>
+    //activity main
+        //white square
+    <dimen name="margin_top_square">84dp</dimen>
+    <dimen name="width_square">280dp</dimen>
+    <dimen name="height_square">152dp</dimen>
+        //edit text
+    <dimen name="margin_top_edit_text">97dp</dimen>
+    <dimen name="width_edit_text">250dp</dimen>
+    <dimen name="height_edit_text">72dp</dimen>
+        //btn accept
+    <dimen name="margin_top_btn_accept">183dp</dimen>
+    <dimen name="margin_left_btn_accept">231dp</dimen>
+        //btn cancel
+    <dimen name="margin_top_btn_cancel">183dp</dimen>
+    <dimen name="margin_left_btn_cancel">143dp</dimen>
+        //btn comment
+    <dimen name="padding_right_btn_comment">15dp</dimen>
+    <dimen name="width_btn_comment">32dp</dimen>
+    <dimen name="height_btn_comment">40dp</dimen>
+    <dimen name="margin_bottom_btn_comment">20dp</dimen>
+    <dimen name="margin_left_btn_comment">11dp</dimen>
+        //btn history
+    <dimen name="width_btn_history">42dp</dimen>
+    <dimen name="height_btn_history">36dp</dimen>
+    <dimen name="margin_bottom_btn_history">20dp</dimen>
+    <dimen name="margin_right_btn_history">11dp</dimen>
+
+
+
+
+</resources>

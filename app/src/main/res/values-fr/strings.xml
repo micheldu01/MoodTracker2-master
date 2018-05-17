@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MoodTracker</string>
+    <string name="int_comment">Commentaire</string>
+    <string name="accept">Valider</string>
+    <string name="cancel">Supprimer</string>
+    <string name="a_week_ago"> Il y a une semaine</string>
+    <string name="six_days_ago"> Il y a six jours</string>
+    <string name="five_days_ago"> Il y a cinq jours</string>
+    <string name="four_day_ago"> Il y a quatre jours</string>
+    <string name="three_days_ago"> Il y a trois jours</string>
+    <string name="day_before_yesterday"> Avant hier</string>
+    <string name="yesterday"> Hier</string>
+</resources>

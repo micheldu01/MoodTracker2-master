@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.michelapplication.moodtracker.controller.MainActivity">
+
+    <com.michelapplication.moodtracker.model.VerticalViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewPager">
+
+    </com.michelapplication.moodtracker.model.VerticalViewPager>
+
+    <TextView
+        android:id="@+id/white_square"
+        android:layout_marginTop="@dimen/margin_top_square"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:layout_width="@dimen/width_square"
+        android:layout_height="@dimen/height_square"/>
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="@dimen/width_edit_text"
+        android:layout_height="@dimen/height_edit_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_top_edit_text"
+        android:backgroundTint="@color/green_line"
+        android:hint="@string/int_comment"/>
+
+
+    <Button
+        android:id="@+id/btn_accept_comment"
+        android:text="@string/accept"
+        android:textColor="@color/green_text"
+        android:layout_marginTop="@dimen/margin_top_btn_accept"
+        android:layout_marginLeft="@dimen/margin_left_btn_accept"
+        android:paddingRight="@dimen/padding_right_btn_comment"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_cancel_comment"
+        android:text="@string/cancel"
+        android:textColor="@color/green_text"
+        android:layout_marginTop="@dimen/margin_top_btn_cancel"
+        android:layout_marginLeft="@dimen/margin_left_btn_cancel"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/button_comment"
+        android:layout_width="@dimen/width_btn_comment"
+        android:layout_height="@dimen/height_btn_comment"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="@dimen/margin_bottom_btn_comment"
+        android:layout_marginLeft="@dimen/margin_left_btn_comment"
+        android:background="@drawable/ic_note_add_black"/>
+
+    <Button
+        android:id="@+id/button_history_black"
+        android:layout_width="@dimen/width_btn_history"
+        android:layout_height="@dimen/height_btn_history"
+        android:layout_marginBottom="@dimen/margin_bottom_btn_history"
+        android:layout_marginRight="@dimen/margin_right_btn_history"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ic_history_black"/>
+
+
+</RelativeLayout>
